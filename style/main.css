@@ -1,0 +1,95 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #b2f0e9 0%, #a3c7f5 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+form, .card {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 18px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  width: 320px;
+  text-align: center;
+}
+
+h1 {
+  color: #3380a5;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 10px;
+  border: 1px solid #b6d3eb;
+  border-radius: 7px;
+  box-sizing: border-box;
+  background: #f9fbfd;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3380a5;
+  background: #fff;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 0.8rem;
+  background: #5ba4cf;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #397ca5;
+  transform: translateY(-2px);
+}
+
+a {
+  display: block;
+  margin-top: 15px;
+  color: #666;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+a:hover {
+  color: #3380a5;
+  text-decoration: underline;
+}
+
+.btn-logout {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #ff6b6b;
+  color: white !important;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.btn-logout:hover {
+  background: #e05252;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.welcome-text {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
