@@ -1,7 +1,6 @@
 # Vanilla Node.js & PostgreSQL Authentication System
 
 A raw Node.js authentication system built from scratch without frameworks. Uses PostgreSQL for data storage and bcrypt for security.
-
 This project demonstrates a deep understanding of HTTP protocols, backend architecture, and low-level database interactions.
 
 ## 🚀 Features
